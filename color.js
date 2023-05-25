@@ -177,6 +177,9 @@ function startClear() {
         document.getElementById('cleaner').style.zIndex = "1";
         document.getElementById('emphasis_pip').style.visibility = "hidden";
         
+        document.getElementById('cleaner').style.position = "";
+        document.getElementById('changeWidth').style.position = "";
+        
         alredy = false;
     }
 }
