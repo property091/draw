@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tools.css">
+
+    
+    <title>Draw🎨</title>
+</head>
+<body>
+    
+    
+    <div class="container">
+        <div id="emphasis_pip"></div>
+
+        <canvas id="layer" width="500" height="500"></canvas>
+
+        <div id="tools" class="tools">
+
+            <div class="color_buttons">
+                <input type="button" class="button_pan" value="🧼" id="cleaner">
+                <!-- <input type="button" class="button_b" value="b" id="b"> -->
+                <input type="button" class="button_pip" value="💧" id="pip">
+            </div>
+
+            <div id='colorSAVER' class="colorSAVER">
+                <div id="colorNOW">
+                    CLR
+                </div>
+            </div>
+
+            
+        </div>
+
+        <div class="tools_under">
+            <div id="changeWidth" class="changeWidth">
+                <span id="valueWidth">2</span>
+                <input id="box" type="range" min="0.1" max="50" step="0.1" value="2">
+                
+            </div>
+
+            <button class="saver" id="saver">
+                Сохранить
+            </button>
+        </div>
+        
+        <div class="tools_other">
+            
+        </div>
+
+        
+        
+    </div>
+
+    
+
+    <script src="main.js"></script>
+    <script src="color.js"></script>
+    <script src="saver.js"></script>
+</body>
+</html>

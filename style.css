@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(31, 56, 90);
+    text-align: center;
+    
+    cursor:  url(cursor.png) 9 28, auto;
+}
+
+.container {
+    width: 1000px;
+
+    margin-top: 10%;
+    margin-left: 28%;
+
+    align-items: inline-block;
+
+    clear: both;
+}
+
+canvas {
+    border: 1px solid rgb(0, 195, 255);
+    background-color: rgb(245, 245, 245);
+    
+}
+
+
+#layer {
+    position: relative;
+    z-index: 3;
+}
+
+#emphasis_pip {
+    position: fixed;
+    margin: -30%;
+
+    width: 150%;
+    height: 150%;
+
+    z-index: 1;
+
+    background-color: rgb(18, 45, 82);
+    opacity: 40%;
+
+    visibility: hidden;
+}
+
+
+
+
